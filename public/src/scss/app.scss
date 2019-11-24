@@ -1,0 +1,12 @@
+
+//COLORS
+$font_color: white;
+$secondary_color: #FF9D7A;
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Calistoga', cursive;
+}
+
+//PARTIALS
+@import "partials/home";
+@import "partials/header";

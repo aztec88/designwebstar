@@ -1,0 +1,33 @@
+.main_header {
+  padding: 20px 0;
+}
+
+.logo {
+  padding-left: 20px;
+}
+
+.menu {
+  padding: 0;
+}
+
+.main_menu {
+  list-style: none;
+  float: right;
+  padding: 20px 0 0 0;
+  margin: 0;
+
+  li {
+    display: inline-block;
+    padding: 10px 20px;
+
+    a {
+      font-size: 18px;
+      text-decoration: none;
+      color: $font_color;
+
+      &:hover {
+        color: $secondary_color;
+      }
+    }
+  }
+}

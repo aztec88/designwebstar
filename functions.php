@@ -57,7 +57,7 @@ add_action('init', 'site_theme_setup');
  	  'has_archive' => true,
  	  'menu_icon' => 'dashicons-products',
  	  'rewrite' => array('slug' => 'service'),
- 	  'supports' => array('title', 'editor', 'thumbnail', 'author')
+ 	  'supports' => array('title', 'editor', 'thumbnail', 'author', 'excerpt')
  	)
    );
  }

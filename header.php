@@ -30,7 +30,7 @@ endif;
     <div class="row main_header">
         <div class="col-4 logo">
             <a href="/">
-                <img width="200px" src="<?= get_template_directory_uri()?>/public/src/img/logo.png" alt="DesignWebStar Logo">
+                <img width="150px" src="<?= get_template_directory_uri()?>/public/src/img/logo.png" alt="DesignWebStar Logo">
             </a>
         </div>
 

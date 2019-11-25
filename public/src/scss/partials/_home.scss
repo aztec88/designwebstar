@@ -1,16 +1,49 @@
 .home_text {
   vertical-align: middle;
 
+  .text_wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
   h1 {
     color: white;
     margin-bottom: 20px;
+    font-size: 50px;
   }
 
   p {
+    font-family: Arial;
     color: white;
+    font-size: 15px;
   }
 }
 
 .home_content {
   margin-top: 5%;
+}
+
+.single_service {
+  img {
+    border-radius: 9px;
+    border: 1px rgba(255,255,255, .5) solid;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+    position: relative;
+  }
+
+  .single_services_content {
+    padding: 0 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    h2, p {
+      color: white;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
 }

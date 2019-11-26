@@ -11,12 +11,12 @@ $id = get_the_ID()
 
 <div class="container-fluid home_content">
     <div class="row">
-        <div class="col-4 home_text">
+        <div class="col-12 col-lg-4 home_text">
             <div class="text_wrapper">
                 <?= wpautop(get_post_field('post_content', $id)); ?>
             </div>
         </div>
-       <div class="col-8 services">
+       <div class="col-12 col-lg-8 services">
            <div class="row">
             <!-- Services -->
 
@@ -35,6 +35,7 @@ $id = get_the_ID()
             <div class="col-4 single_service">
                 <a href="<?php the_permalink(); ?>">
                     <?php the_post_thumbnail('', array('class' => 'img-fluid')); ?>
+                    <?= get_field( "service_icon" ); ?>
                     <div class="single_services_content">
                         <h2><?php the_title(); ?></h2>
                         <p><?php the_excerpt() ?></p>

@@ -1,9 +1,8 @@
 //COLORS
-$font_main: #566270;
-$secondary_color: #D4DFE6;
-$color_3: #6AAFE6;
-$color_4: #CADBE9;
-$color_5: #8EC0E4;
+$font_main: #39393B;
+$secondary_color: #E45158;
+$color_3: #616161;
+$color_4: #D5797E;
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -23,4 +22,3 @@ body {
 @import "partials/home";
 @import "partials/header";
 @import "partials/services";
-

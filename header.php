@@ -21,7 +21,7 @@ endif;
 
 ?>
 
-<body <?php if (is_front_page()) { body_class($site_classes); } else echo 'class="other_pages"'; ?>>
+<body <?php  body_class($site_classes); ?>>
 
 <div class="container-fluid">
     <div class="row main_header">

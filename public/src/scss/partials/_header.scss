@@ -23,10 +23,11 @@
     a {
       font-size: 18px;
       text-decoration: none;
-      color: white;
+      color: $secondary_color;
+      font-family: 'Cabin', sans-serif;
 
       &:hover {
-        color: $secondary_color;
+        color: $color_3;
       }
     }
   }
@@ -34,7 +35,6 @@
 
 .other_pages {
   .main_header {
-    background: $color_3;
-    border-bottom: 2px $color_5 solid;
+    border-bottom: 2px $color_3 solid;
   }
 }

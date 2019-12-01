@@ -1,12 +1,26 @@
 //COLORS
-$font_color: white;
-$font_main: #1A1919;
-$secondary_color: #FF9D7A;
+$font_main: #566270;
+$secondary_color: #D4DFE6;
+$color_3: #6AAFE6;
+$color_4: #CADBE9;
+$color_5: #8EC0E4;
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Calistoga', cursive;
+body {
+  font-family: 'Open Sans', sans-serif;
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+  }
+}
+
+.custom_padding {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 //PARTIALS
 @import "partials/home";
 @import "partials/header";
+@import "partials/services";
+

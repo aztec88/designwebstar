@@ -1,5 +1,5 @@
 .main_header {
-  padding: 20px 0;
+  padding: 20px 10px;
 }
 
 .logo {
@@ -23,11 +23,18 @@
     a {
       font-size: 18px;
       text-decoration: none;
-      color: $font_color;
+      color: white;
 
       &:hover {
         color: $secondary_color;
       }
     }
+  }
+}
+
+.other_pages {
+  .main_header {
+    background: $color_3;
+    border-bottom: 2px $color_5 solid;
   }
 }

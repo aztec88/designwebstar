@@ -5,7 +5,7 @@
 
 get_header();
 
-$id = get_the_ID()
+$id = get_the_ID();
 
 ?>
 

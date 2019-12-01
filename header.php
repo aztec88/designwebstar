@@ -7,11 +7,8 @@
     <meta name="description" content="Don't be in the dark, let us light the way for you">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="shortcut icon" href="/wp-content/themes/designwebstar/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Roboto:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Cabin:700|Open+Sans&display=swap&subset=latin-ext" rel="stylesheet">
     <?php wp_head(); ?>
-
 </head>
 
 <?php
@@ -24,7 +21,7 @@ endif;
 
 ?>
 
-<body <?php body_class($site_classes); ?>>
+<body <?php if (is_front_page()) { body_class($site_classes); } else echo 'class="other_pages"'; ?>>
 
 <div class="container-fluid">
     <div class="row main_header">

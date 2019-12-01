@@ -1,28 +1,19 @@
 <?php
 
-if (have_posts()):
+get_header();
+$id = get_the_ID();
 
-while (have_posts()):
-the_post();
 ?>
 
-
-<div class="container-fluid">
-    <?php get_header(); ?>
-
-    <div class="text">
-        <div class="page_text">
+<div class="container">
+    <div class="row">
+        <div class="page_content col-12 custom_padding">
             <h1><?php the_title(); ?></h1>
 
-            <?php the_content(); ?>
+            <?= wpautop(get_post_field('post_content', $id)); ?>
 
         </div>
     </div>
+</div>
 
-
-    <?php endwhile;
-
-    endif;
-
-    ?>
-    <?php get_footer(); ?>
+<?php get_footer(); ?>
